@@ -31,3 +31,13 @@ Public Static Void HeapfyDown(int i){
       heapfyDown(smallest);
   }
 }
+
+
+Public Static Void buildHeapTopDown(String[]  arr){
+  heap = new String[arr.length]
+    size =0
+
+    for (String word;arr){
+    insert(word);
+  }
+}
