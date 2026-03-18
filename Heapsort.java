@@ -41,3 +41,9 @@ Public Static Void buildHeapTopDown(String[]  arr){
     insert(word);
   }
 }
+
+Public Static Void insert(String word){
+  heap[size] = word
+    int i =size
+    size++;
+  
