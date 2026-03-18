@@ -73,13 +73,36 @@ Piblic  Static Void TestSmall(){
   String[] words = ["A","B","C","D","E","F","G"]
   
   System.out.printIn("BottomUp")
-  build HeapBottomUp(words);
+  buildHeapBottomUp(words);
 print (HeapSort(i));
 
 System.out.printIn("Top-Down")
-  build HeapTopDown(words);
+  buildHeapTopDown(words);
 print (HeapSort(i));
 }
+
+//Timming
+Long Start 1 = System.nano.Time();
+  buildHeapBottomUp(words);
+String[] sort 1 = HeapSort();
+Long end 1= System.nano.Time();
+
+Long Start 2 = System.nano.Time();
+  buildHeapTopDown(words);
+String[] sort 2 = HeapSort();
+Long end 2 = System.nano.Time();
+
+//convertion
+Long time BottomUp =(end 1- Start 1)/100000;
+Long time TopDown =(end 2- Start 2)/100000;
+
+
+
+
+
+
+
+
 
 
 
