@@ -97,6 +97,14 @@ Long time BottomUp =(end 1- Start 1)/100000;
 Long time TopDown =(end 2- Start 2)/100000;
 
 
+System.Out.printIn("==========Time results========");
+System.Out.printIn("BottomUP"+ time BottomUP+"ms");
+System.Out.printIn("BottomUP"+ time TopDown+"ms");
+
+
+
+
+
 
 
 
