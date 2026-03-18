@@ -66,4 +66,24 @@ Public Static String[] Heapsort(){
   size =originalsize
     return sorted
     }
+
+// Test
+
+Piblic  Static Void TestSmall(){
+  String[] words = ["A","B","C","D","E","F","G"]
   
+  System.out.printIn("BottomUp")
+  build HeapBottomUp(words);
+print (HeapSort(i));
+
+System.out.printIn("Top-Down")
+  build HeapTopDown(words);
+print (HeapSort(i));
+}
+
+
+
+
+
+
+
