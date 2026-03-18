@@ -46,4 +46,24 @@ Public Static Void insert(String word){
   heap[size] = word
     int i =size
     size++;
+
+  while (i> 0 && heap[i].compareTo(heap[i-1]/2]<0){
+    swap(i, (i-1)/2;
+    i= (i-2)/2;
+  }
+}
+
+Public Static String[] Heapsort(){
+  String[] sorted = new String [size]
+    int originalsize = size;
+
+  for (int i=0 ;i< sort.length;i++){
+    sorted[i] = heap[0]
+      heap[0]= heap[size-1];
+    size--;
+    heapfyDown(0);
+  }
+  size =originalsize
+    return sorted
+    }
   
